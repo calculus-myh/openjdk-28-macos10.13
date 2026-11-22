@@ -22,8 +22,10 @@ Since official JDK 28 support for x64 macOS (JEP 541) has been deprecated and re
 
 ## Installation
 1. Download `jdk28-macos10.13-bin.tar.gz` from the Releases page.
-2. Extract to `/Library/Java/JavaVirtualMachines/jdk-28.jdk/Contents/Home`.
-3. Verify with `./bin/java -version`.
+2. Extract to 
+- System-wide: /Library/Java/JavaVirtualMachines
+- User-local: ~/Library/Java/JavaVirtualMachines.
+3. Verify with `./jdk-28.jdk/Contents/Home/bin/java -version`.
 
 ## License
 This build is based on OpenJDK and is licensed under GPLv2 with Classpath Exception. The modified source code is available in this repository or in the release assets.
